@@ -1,7 +1,11 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
 <title>Trishna Barman</title>
+<meta name="description" content="This is the personal page of Trishna Barman.">
+<meta name="keywords" content="Trishna Barman, GUIST, gauhati university">
+<meta name="author" content="Trishna Barman" >
+<meta charset="UTF-8">
 <style type="text/css">
 body {
 padding: 2.5%;
@@ -15,10 +19,22 @@ font-size: 90%;
 footer {
 margin: 5% 0 0 0;
 }
+.print-msg {
+display: none;
+}
+@media print {
+	header, main, address, footer {
+	display: none;
+	}
+	.print-msg {
+	display: inline;
+	}
+}
 </style>
 </head>
 <body>
 
+<!-- Main page -->
 <header>
 <h1>Trishna Barman</h1>
 <h2><small>B.Tech // Information Technology</small></h2>
@@ -27,7 +43,7 @@ margin: 5% 0 0 0;
 <br/>
 <main>
 <p>My name is Trishna Barman and I welcome you to my homepage.</p>
-<p>I am currently doing B.Tech in Information Technology in Guwahati University Institute of Science and Technology (GUIST).</p>
+<p>I am currently doing B.Tech in Information Technology in Gauhati University Institute of Science and Technology (GUIST).</p>
 <p>My academic interests lie primarily on <em>computer programming</em>, <em>algorithm</em>, <em>operating systems</em> and <em>web development</em>.</p>
 <p>For more information, contact me at <a href="mailto:trishna.guist@gmail.com" >trishna.guist[at]gmail[dot]com</a>.</p>
 <br/>
@@ -37,7 +53,7 @@ margin: 5% 0 0 0;
 <address>
 <p><strong>Trishna Barman</strong></p>
 <p>Dept. of Information Technology</p>
-<p>Guwahati University Institute of Science and Technolgoy</p>
+<p>Gauhati University Institute of Science and Technolgoy</p>
 <p>Guwahati, 781014</p>
 <p>Assam, India</p>
 </address>
@@ -45,6 +61,12 @@ margin: 5% 0 0 0;
 <footer>
 <small>This web page is written by Trishna Barman as a part of Lab Exercise.</small>
 </footer>
+
+<!-- Message for printing -->
+<div class="print-msg">
+<h1>Ooopsss..</h1>
+<p>This web page is not available for printing.</p>
+</div>
 
 </body>
 </html>
