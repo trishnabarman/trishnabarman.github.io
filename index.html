@@ -5,25 +5,49 @@
 <meta name="description" content="This is the academic homepage of Trishna Barman.">
 <meta name="keywords" content="Trishna Barman, GUIST, gauhati university">
 <meta name="author" content="Trishna Barman" >
+<base href="http://trishnabarman.github.io" target="_self">
 <meta charset="UTF-8">
 <style type="text/css">
 body {
 width: 95%;
-margin: 0;
+margin: 0 auto;
 padding: 2.5%;
 font-size: 100%;
 }
-address p {
-margin: 0;
-padding: 2.5px 0;
-font-size: 90%;
+address {
+font-style: normal;
+}
+ul {
+list-style-type: none;
+list-style-position: outside;
+margin: auto 0;
+padding: 0;
+}
+li {
+margin-bottom: 5px;
+padding-left: 0;
+}
+details {
+font-size: 75%;
+}
+.home {
+float: right;
 }
 .print-msg {
 display: none;
 }
 @media (max-width:768px) {
+	body {
+	margin: 5% auto;	
+	}
 	main, address {
 	line-height: 1.5;	
+	}
+	details {
+	font-size: 90%;	
+	}
+	.home {
+	display: none;	
 	}
 }
 @media print {
@@ -40,32 +64,37 @@ display: none;
 
 <!-- Main page -->
 <header>
+<small class="home"><a href="http://trishnabarman.github.io/" title="Home">Home</a> | <a href="mailto:trishna.guist@gmail.com" title="Email">trishna.guist[at]gmail[dot]com</a></small>
+<small><em>Welcome to Homepage of</em></small>
 <h1>Trishna Barman</h1>
-<h2><small>B.Tech // Information Technology</small></h2>
+<h2><small>B.Tech Student in <a href="http://www.gauhati.ac.in/page.php?cat=Department&id=Information%20Technology" target="_blank" title="Dept. of IT, GU">Information Technology</a>, <abbr>GU IST</abbr></small></h2>
 </header>
 <br/>
 
 <main>
-<p>Hello, world ! My name is Trishna Barman and I welcome you to my academic homepage.</p>
-<p>I am currently doing B.Tech in Information Technology in Gauhati University Institute of Science and Technology (GUIST).</p>
+<p>Hello, world ! My name is <a href="http://trishnabarman.github.io/" title="Trishna Barman">Trishna Barman</a> and this is my academic homepage.</p>
+<p>I am currently doing B.Tech in Information Technology in Gauhati University Institute of Science and Technology (<a href="http://www.gauhati.ac.in/quicklinks.php?dep_id=43" target="_blank" title="GU IST">link</a>).</p>
 <p>My academic interests lie primarily on <em>computer programming</em>, <em>algorithm</em>, <em>networking</em> and <em>web development</em>.</p>
-<p>You can write to me at my email id <a href="mailto:trishna.guist@gmail.com" >trishna.guist[at]gmail[dot]com</a>.</p>
+<p>I'm available on <a href="https://www.github.com/trishnabarman/" target="_blank">Github</a>. You can write to me at my email id <a href="mailto:trishna.guist@gmail.com" title="Email">trishna.guist[at]gmail[dot]com</a>.</p>
 <br/>
 <p>Thank you.</p>
 </main>
 <br/>
 
 <address>
-<p><strong>Trishna Barman</strong></p>
-<p>Dept. of Information Technology</p>
-<p>Gauhati University Institute of Science and Technolgoy</p>
-<p>Guwahati, 781014</p>
-<p>Assam, India</p>
+<ul>
+<li><strong>Trishna Barman</strong></li>
+<li>Dept. of Information Technology</li>
+<li>Gauhati University Institute of Science and Technolgoy</li>
+<li>Guwahati, 781014</li>
+<li>Assam, India</li>
+</ul>
 </address>
-<br/><br/>
+<br/>
+<br/>
 
 <footer>
-<small><strong>Note:</strong> This web page is written by Trishna Barman as a part of Lab activity. All rights reserved.</small>
+<details>This website is last updated on 24<sup>th</sup> September, 2014. (<a href="sitemap.xml" title="Sitemap">Sitemap</a>)</details>
 </footer>
 
 <!-- Message for printing -->
@@ -74,5 +103,15 @@ display: none;
 <p>This web page is not available for printing.</p>
 </div>
 
+<!-- Google Analytics -->
+<script>
+	(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+	(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+	m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+	})(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+	ga('create', 'UA-55117808-1', 'auto');
+	ga('send', 'pageview');
+</script>
 </body>
 </html>
