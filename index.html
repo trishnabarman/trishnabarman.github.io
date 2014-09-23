@@ -16,11 +16,13 @@ margin: 0;
 padding: 2.5px 0;
 font-size: 90%;
 }
-footer {
-margin: 5% 0 0 0;
-}
 .print-msg {
 display: none;
+}
+@media (max-width:768px) {
+	main, address {
+	line-height: 1.5;	
+	}
 }
 @media print {
 	header, main, address, footer {
@@ -45,10 +47,11 @@ display: none;
 <p>My name is Trishna Barman and I welcome you to my academic homepage.</p>
 <p>I am currently doing B.Tech in Information Technology in Gauhati University Institute of Science and Technology (GUIST).</p>
 <p>My academic interests lie primarily on <em>computer programming</em>, <em>algorithm</em>, <em>operating systems</em> and <em>web development</em>.</p>
-<p>For more information, contact me at <a href="mailto:trishna.guist@gmail.com" >trishna.guist[at]gmail[dot]com</a>.</p>
+<p>You can write to me at my email id <a href="mailto:trishna.guist@gmail.com" >trishna.guist[at]gmail[dot]com</a>.</p>
 <br/>
-<p>Thanks,</p>
+<p>Thank you.</p>
 </main>
+<br/>
 
 <address>
 <p><strong>Trishna Barman</strong></p>
@@ -57,9 +60,10 @@ display: none;
 <p>Guwahati, 781014</p>
 <p>Assam, India</p>
 </address>
+<br/><br/>
 
 <footer>
-<small>This web page is written by Trishna Barman as a part of Lab Exercise.</small>
+<small><strong>Note:</strong> This web page is written by Trishna Barman as a part of Lab activity. All rights reserved.</small>
 </footer>
 
 <!-- Message for printing -->
