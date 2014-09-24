@@ -1,5 +1,0 @@
-# robots.txt for http://trishnabarman.github.io/
-User-agent: *
-Disallow: 
-Disallow: /cgi-bin/
-Sitemap: http://trishnabarman.github.io/sitemap.xml
